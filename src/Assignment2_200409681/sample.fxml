@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" style="-fx-background-color: #c0ffee;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Assignment2_200409681.Controller">
+   <children>
+      <Label layoutX="49.0" layoutY="26.0" prefHeight="23.0" prefWidth="118.0" text="Your Points : ">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="point" layoutX="179.0" layoutY="26.0" prefHeight="23.0" prefWidth="118.0" text="0">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <TextField fx:id="word" layoutX="202.0" layoutY="68.0" prefHeight="43.0" prefWidth="289.0" />
+      <Label layoutX="49.0" layoutY="63.0" prefHeight="53.0" prefWidth="134.0" text="type your word :">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Button layoutX="561.0" layoutY="68.0" mnemonicParsing="false" onAction="#submit" prefHeight="43.0" prefWidth="125.0" text="Submit Word">
+         <font>
+            <Font name="Arial" size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="A" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="200.0" onMouseClicked="#addA" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="A">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="B" alignment="CENTER" contentDisplay="CENTER" layoutX="140.0" layoutY="200.0" onMouseClicked="#addB" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="B">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="C" alignment="CENTER" contentDisplay="CENTER" layoutX="230.0" layoutY="200.0" onMouseClicked="#addC" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="C">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="D" alignment="CENTER" contentDisplay="CENTER" layoutX="320.0" layoutY="200.0" onMouseClicked="#addD" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="D">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="E" alignment="CENTER" contentDisplay="CENTER" layoutX="410.0" layoutY="200.0" onMouseClicked="#addE" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="E">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="F" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="200.0" onMouseClicked="#addF" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="F">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="G" alignment="CENTER" contentDisplay="CENTER" layoutX="590.0" layoutY="200.0" onMouseClicked="#addG" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="G">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="J" alignment="CENTER" contentDisplay="CENTER" layoutX="140.0" layoutY="300.0" onMouseClicked="#addJ" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="J">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="H" alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="200.0" onMouseClicked="#addH" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="H">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="I" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="300.0" onMouseClicked="#addI" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="I">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="K" alignment="CENTER" contentDisplay="CENTER" layoutX="230.0" layoutY="300.0" onMouseClicked="#addK" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="K">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="L" alignment="CENTER" contentDisplay="CENTER" layoutX="320.0" layoutY="300.0" onMouseClicked="#addL" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="L">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="M" alignment="CENTER" contentDisplay="CENTER" layoutX="410.0" layoutY="300.0" onMouseClicked="#addM" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="M">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="N" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="300.0" onMouseClicked="#addN" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="N">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="O" alignment="CENTER" contentDisplay="CENTER" layoutX="590.0" layoutY="300.0" onMouseClicked="#addO" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="O">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="P" alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="300.0" onMouseClicked="#addP" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="P">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="Q" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="400.0" onMouseClicked="#addQ" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="Q">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="R" alignment="CENTER" contentDisplay="CENTER" layoutX="140.0" layoutY="400.0" onMouseClicked="#addR" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="R">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="S" alignment="CENTER" contentDisplay="CENTER" layoutX="230.0" layoutY="400.0" onMouseClicked="#addS" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="S">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="T" alignment="CENTER" contentDisplay="CENTER" layoutX="320.0" layoutY="400.0" onMouseClicked="#addT" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="T">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="U" alignment="CENTER" contentDisplay="CENTER" layoutX="410.0" layoutY="400.0" onMouseClicked="#addU" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="U">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="V" alignment="CENTER" contentDisplay="CENTER" layoutX="500.0" layoutY="400.0" onMouseClicked="#addV" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="V">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="W" alignment="CENTER" contentDisplay="CENTER" layoutX="590.0" layoutY="400.0" onMouseClicked="#addW" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="W">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="X" alignment="CENTER" contentDisplay="CENTER" layoutX="680.0" layoutY="400.0" onMouseClicked="#addX" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="X">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="Y" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="500.0" onMouseClicked="#addY" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="Y">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="Z" alignment="CENTER" contentDisplay="CENTER" layoutX="140.0" layoutY="500.0" onMouseClicked="#addZ" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #c0ffee;" text="Z">
+         <font>
+            <Font name="Arial" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="39.0" layoutY="592.0" prefHeight="53.0" prefWidth="142.0" text="Previous Words :">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="240.0" text="1" />
+      <Label layoutX="185.0" layoutY="240.0" text="3" />
+      <Label layoutX="275.0" layoutY="240.0" text="3" />
+      <Label layoutX="365.0" layoutY="240.0" text="2" />
+      <Label layoutX="455.0" layoutY="240.0" text="1" />
+      <Label layoutX="545.0" layoutY="240.0" text="4" />
+      <Label layoutX="635.0" layoutY="240.0" text="2" />
+      <Label layoutX="725.0" layoutY="240.0" text="4" />
+      <Label layoutX="95.0" layoutY="340.0" text="1" />
+      <Label layoutX="185.0" layoutY="340.0" text="8" />
+      <Label layoutX="275.0" layoutY="340.0" text="5" />
+      <Label layoutX="365.0" layoutY="340.0" text="1" />
+      <Label layoutX="455.0" layoutY="340.0" text="3" />
+      <Label layoutX="545.0" layoutY="340.0" text="1" />
+      <Label layoutX="635.0" layoutY="340.0" text="1" />
+      <Label layoutX="725.0" layoutY="340.0" text="3" />
+      <Label layoutX="95.0" layoutY="440.0" text="10" />
+      <Label layoutX="185.0" layoutY="440.0" text="1" />
+      <Label layoutX="275.0" layoutY="440.0" text="1" />
+      <Label layoutX="365.0" layoutY="440.0" text="1" />
+      <Label layoutX="455.0" layoutY="440.0" text="1" />
+      <Label layoutX="545.0" layoutY="440.0" text="4" />
+      <Label layoutX="635.0" layoutY="440.0" text="4" />
+      <Label layoutX="725.0" layoutY="440.0" text="8" />
+      <Label layoutX="95.0" layoutY="540.0" text="4" />
+      <Label layoutX="185.0" layoutY="540.0" text="10" />
+      <Label fx:id="numberA" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="260.0" text="9" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberB" alignment="CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="260.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberC" alignment="CENTER" contentDisplay="CENTER" layoutX="255.0" layoutY="260.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberD" alignment="CENTER" contentDisplay="CENTER" layoutX="345.0" layoutY="260.0" text="4" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberE" alignment="CENTER" contentDisplay="CENTER" layoutX="435.0" layoutY="260.0" text="12" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberF" alignment="CENTER" contentDisplay="CENTER" layoutX="525.0" layoutY="260.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberG" alignment="CENTER" contentDisplay="CENTER" layoutX="615.0" layoutY="260.0" text="3" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberH" alignment="CENTER" contentDisplay="CENTER" layoutX="705.0" layoutY="260.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberI" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="360.0" text="8" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberJ" alignment="CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="360.0" text="1" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberK" alignment="CENTER" contentDisplay="CENTER" layoutX="255.0" layoutY="360.0" text="1" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberL" alignment="CENTER" contentDisplay="CENTER" layoutX="345.0" layoutY="360.0" text="4" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberM" alignment="CENTER" contentDisplay="CENTER" layoutX="435.0" layoutY="360.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberN" alignment="CENTER" contentDisplay="CENTER" layoutX="525.0" layoutY="360.0" text="6" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberO" alignment="CENTER" contentDisplay="CENTER" layoutX="615.0" layoutY="360.0" text="8" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberP" alignment="CENTER" contentDisplay="CENTER" layoutX="705.0" layoutY="360.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberQ" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="460.0" text="1" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberR" alignment="CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="460.0" text="6" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberS" alignment="CENTER" contentDisplay="CENTER" layoutX="255.0" layoutY="460.0" text="4" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberT" alignment="CENTER" contentDisplay="CENTER" layoutX="345.0" layoutY="460.0" text="6" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberU" alignment="CENTER" contentDisplay="CENTER" layoutX="435.0" layoutY="460.0" text="4" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberV" alignment="CENTER" contentDisplay="CENTER" layoutX="525.0" layoutY="460.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberW" alignment="CENTER" contentDisplay="CENTER" layoutX="615.0" layoutY="460.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberX" alignment="CENTER" contentDisplay="CENTER" layoutX="705.0" layoutY="460.0" text="1" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberY" alignment="CENTER" contentDisplay="CENTER" layoutX="75.0" layoutY="560.0" text="2" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberZ" alignment="CENTER" contentDisplay="CENTER" layoutX="165.0" layoutY="560.0" text="1" textFill="#199ae0">
+         <font>
+            <Font name="Arial" size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="previousWord" layoutX="39.0" layoutY="645.0" prefHeight="101.0" prefWidth="697.0" />
+      <Label layoutX="586.0" layoutY="766.0" text="Lei Han">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="650.0" layoutY="766.0" text="200409681">
+         <font>
+            <Font name="Arial" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
